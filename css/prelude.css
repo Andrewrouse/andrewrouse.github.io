@@ -1,0 +1,61 @@
+@charset "UTF-8";
+.top_bg {
+	position: relative;
+	background: #1b5240;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	overflow: hidden;
+}
+header {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+}
+.about_bg {
+	position: relative;
+	background: #e79c9f;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	overflow: hidden;
+}
+.teacher_bg {
+	position: relative;
+	background: #2b97bc;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	overflow: hidden;
+}
+.hiker_bg {
+	position: relative;
+	background: #1b5240;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	overflow: hidden;
+}
+/* Responsive Design */
+@media (max-width: 767px) {
+
+}
+@media (min-width: 768px) {
+	
+}
+
+/* Navigation symbols color */
+#xs_nav_label svg,
+#xs_navbar svg,
+.pagetop svg,
+#xs_navbar svg {
+	stroke: yellow;
+}
